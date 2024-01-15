@@ -24,7 +24,7 @@
                         </div>
                     </div>
                     <div class="data2">
-                        <img src="../assets/cart.jpg"  margin-top="-50px" width="50px" height="50px"></img>
+                        <img src="../assets/cart.jpg" width="50px" height="50px"></img>
                         <div class="data1">
                             <h6>Abandoned Cart 15 mins</h6>
                             <p>4024 Sent | 124 Clicks</p>
@@ -35,7 +35,7 @@
                         </div>
                     </div>
                     <div class="data2">
-                        <img src="../assets/cart.jpg" margin-top="-50px" width="50px" height="50px"></img>
+                        <img src="../assets/cart.jpg" width="50px" height="50px"></img>
                         <div class="data1">
                             <h6>Abandoned Cart 4 Days</h6>
                             <p>4024 Sent | 124 Clicks</p>
