@@ -64,7 +64,7 @@
 				<span class="text">Integration</span>
 			</router-link>
             <router-link to="/bottom" >
-                <div class="rounded-top text-black d-flex flex-row" >
+                <div class="rounded-top text-black d-flex flex-row " >
                     <div class="ms-4 mt-2 d-flex flex-column">
                         <img src="../assets/face.png" id="bottomMenu">
                     </div>
@@ -96,6 +96,9 @@ const ToggleMenu = () => {
 </script>
 
 <style lang="scss" scoped>
+
+
+
 aside {
 	display:flex;
 	flex-direction: column;
@@ -145,19 +148,20 @@ aside {
   
     }
 
+
     #bottomMenu{
     width: 70px;
     height: 70px;
     border-radius: 100%;
-    margin-top:16rem;
+    margin-top:12rem;
 	margin-left: -20px;
     padding:10px; 
     }
 	
     #bottomMenu2{
-    margin-top: 16.5em;
+    margin-top: 12.5em;
     padding: 10px;
-	text-decoration: none;
+	text-decoration:underline;
 
     }
 
@@ -212,15 +216,15 @@ aside {
 			text-decoration: none;
 
 			transition: 0.2s ease-in-out;
-			padding: 0.5rem 1rem;
+			padding: 1rem 01.5rem;
 
 			.material-icons {
-				font-size: 2rem;
-				color: var(--dark);
+				font-size: 1.6rem;
+				color: var(--grey);
 				transition: 0.2s ease-in-out;
 			}
 			.text {
-				color: var(--dark);
+				color: rgb(84, 83, 83);
 				transition: 0.2s ease-in-out;
 			}
 
